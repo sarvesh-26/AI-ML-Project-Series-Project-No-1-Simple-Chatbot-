@@ -1,0 +1,50 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+        "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+        "context": [""]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+        "context": [""]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["My pleasure", "You're Welcome"],
+        "context": [""]
+    },
+    {
+        "tag": "query",
+        "patterns": ["What is Machine Learning?"],
+        "responses": ["Machine learning is a subfield of artificial intelligence that uses algorithms to create models that help machines perform tasks. The goal of machine learning is to design algorithms that can automatically gather data and use it to learn more."],
+        "context": [""]
+    },
+    {
+        "tag": "query",
+        "patterns": ["How does machine learning work?", "Can you explain machine learning?", "What are the principles of machine learning?"],
+        "responses": ["Machine learning works by feeding data to algorithms that learn from it and make predictions or decisions based on the data. These algorithms improve over time as they are exposed to more data. The principles of machine learning include supervised learning, unsupervised learning, and reinforcement learning."],
+        "context": [""]
+    },
+    {
+        "tag": "query",
+        "patterns": ["What are the types of machine learning?", "Can you list different types of machine learning?"],
+        "responses": ["There are several types of machine learning, including supervised learning, unsupervised learning, semi-supervised learning, reinforcement learning, and self-supervised learning."],
+        "context": [""]
+    },
+    {
+        "tag": "query",
+        "patterns": ["What is supervised learning?"],
+        "responses": ["Supervised learning is a type of machine learning where the algorithm learns from labeled data, meaning the input data is paired with the correct output. The algorithm uses this labeled data to make predictions or decisions when new data is encountered."],
+        "context": [""]
+    },
+    {
+        "tag": "query",
+        "patterns": ["What is unsupervised learning?"],
+        "responses": ["Unsupervised learning is a type of machine learning where the algorithm learns from unlabeled data, meaning the input data is not paired with any corresponding output. The algorithm tries to find patterns or structure in the data on its own."],
+        "context": [""]
+    }
+]}
